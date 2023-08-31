@@ -80,7 +80,7 @@ job_json = {
                 "notebook_task": {
                     "notebook_path": "00-README"
                 },
-                "task_key": "jsl_kg_00",
+                "task_key": "jsl_sdoh_00",
                 "description": ""
             },
             {
@@ -88,10 +88,10 @@ job_json = {
                 "notebook_task": {
                     "notebook_path": "01-sodh-ner-with-nlp-lab-nb"
                 },
-                "task_key": "jsl_kg_01",
+                "task_key": "jsl_sdoh_01",
                 "depends_on": [
                     {
-                        "task_key": "jsl_kg_00"
+                        "task_key": "jsl_sdoh_00"
                     }
                 ],
                 "description": ""
